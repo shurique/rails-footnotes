@@ -213,8 +213,6 @@ module Footnotes
                 // Restore original display to allow toggling
                 n.style.display = display;
                 toggle(id)
-
-                location.href = '#footnotes_debug';
               }
 
               function note(id) {
